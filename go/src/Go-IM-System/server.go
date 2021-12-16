@@ -54,7 +54,6 @@ func (this *Server) ListenMessager(){
     }
 }
 
-
 //处理业务逻辑
 func (this *Server) Handler(conn net.Conn) {
     //fmt.Println("链接建立成功")
